@@ -13,4 +13,5 @@ struct Todo: Identifiable {
     
     var title: String
     var isCompleted: Bool = false
+    var details = ""
 }
