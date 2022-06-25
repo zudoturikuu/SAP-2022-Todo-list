@@ -21,17 +21,20 @@ struct ContentView: View {
     ]
     var body: some View {
         NavigationView {
-            
-            List(todos) { todo in
-                HStack {
-                    Image(systemName: todo.isCompleted ? "checkmark.circle.fill"
-                          :"circle")
-                Text(todo.title)
-                        .strikethrough(todo.isCompleted)
-                    Text(todo.details)
-                        .font(.caption)
-                        .foregroundColor(.gray)
-                        
+            List($todos) { $todo in
+                NavigationLink {
+                    ToDoDetailView(todo: $todo)
+                 } label: {
+                    HStack {
+                        Image(systemName: todo.isCompleted ? "checkmark.circle.fill"
+                              :"circle")
+                    Text(todo.title)
+                            .strikethrough(todo.isCompleted)
+                        Text(todo.details)
+                            .font(.caption)
+                            .foregroundColor(.gray)
+                            
+                    }
                 }
         }
         .navigationTitle("TODO TODO TODO")
