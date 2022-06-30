@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var todos = [
-        Todo(title: "Watch Paw Patrol and simp for chase", isCompleted: true, details: "Episodes 69 and 420"),
+        Todo(title: "Watch Paw Patrol and fanboy over chase", isCompleted: true, details: "Episodes 69 and 420"),
         Todo(title: "Die"),
         Todo(title: "Become a vampire"),
         Todo(title: "Get Reborn"),
