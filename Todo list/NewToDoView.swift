@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NewTodoView: View {
+struct NewToDoView: View {
 
  @State var todo = ""
 
