@@ -18,6 +18,8 @@ struct ContentView: View {
         Todo(title: "Pet puppy")
 
     ]
+    
+    @State var isSheetPresented = false
     var body: some View {
         NavigationView {
             List {
@@ -50,8 +52,18 @@ struct ContentView: View {
                 ToolbarItem(placement: .navigationBarLeading) {
                     EditButton()
                 }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        isSheetPresented = true
+                    } label: {
+                        Image(systemName: "plus")
+                    }
+                }
             }
     }
+        .sheet(isPresented: $isSheetPresented) {
+            NewToDoView(todos: $todos)
+        }
 }
 
 struct ContentView_Previews: PreviewProvider {

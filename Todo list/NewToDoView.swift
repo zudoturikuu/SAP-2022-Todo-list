@@ -20,7 +20,6 @@ struct NewToDoView: View {
  TextField("Task name", text: $todo)
 
  Button("Save Todo") {
- // Do some magic to save todo
  todos.append(Todo(title: todo))
  presentationMode.wrappedValue.dismiss()
             }
