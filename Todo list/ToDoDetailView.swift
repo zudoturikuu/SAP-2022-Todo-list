@@ -12,7 +12,7 @@ struct ToDoDetailView: View {
     @Binding var todo: Todo
     var body: some View {
         VStack{
-            TextField("Todo title", text: $todo.title)
+            TextField("Please enter a title", text: $todo.title)
                 .textFieldStyle(.roundedBorder)
                 .multilineTextAlignment(.center)
                 .padding()
@@ -27,6 +27,7 @@ struct ToDoDetailView: View {
                     .background(Color.blue)
                      .foregroundColor(.white)
                      .cornerRadius(8)
+                     
             }
         }
         .navigationTitle(todo.title)

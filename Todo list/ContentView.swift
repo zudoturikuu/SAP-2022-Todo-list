@@ -45,7 +45,7 @@ struct ContentView: View {
                 }
                 
         }
-            .navigationTitle("TODO TODO TODO")
+            .navigationTitle("PAW PATROL TODO LIST")
             .toolbar{
                 ToolbarItem(placement: .navigationBarLeading) {
                     EditButton()
