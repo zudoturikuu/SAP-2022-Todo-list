@@ -14,6 +14,7 @@ struct NewToDoView: View {
  @Binding var todos: [Todo]
 
  @Environment(\.presentationMode) var presentationMode
+    @Environment(\.dismiss) var dismiss
 
  var body: some View {
  Form {
@@ -21,7 +22,8 @@ struct NewToDoView: View {
 
  Button("Save Todo") {
  todos.append(Todo(title: todo))
- presentationMode.wrappedValue.dismiss()
+ dismiss()
+ //presentationMode.wrappedValue.dismiss()
             }
         }
     }
