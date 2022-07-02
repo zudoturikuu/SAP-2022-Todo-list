@@ -32,10 +32,12 @@ struct ContentView: View {
                                   :"seal")
                         Text(todo.title)
                                 .strikethrough(todo.isCompleted)
+                                .foregroundColor(todo.isCompleted ?  .blue : .red)
                             Text(todo.details)
                                 .font(.caption)
                                 .foregroundColor(.gray)
-                                
+                            
+                        
                     }
                 }
             }
