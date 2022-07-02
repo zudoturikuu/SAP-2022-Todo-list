@@ -18,6 +18,38 @@
             endingLineNumber = "30"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "419A0077-DAC2-4280-9370-983A791FC867 - 49b18250221b7a2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt; in closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in implicit closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onMove(perform: Swift.Optional&lt;(Foundation.IndexSet, Swift.Int) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_list.ContentView.body.getter : some"
+                  moduleName = "Todo list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zudoturiku/Documents/Coding%20projects/Todo%20list/Todo%20list/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "419A0077-DAC2-4280-9370-983A791FC867 - 78181d724bebd500"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt; in closure #2 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt; in closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in implicit closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onMove(perform: Swift.Optional&lt;(Foundation.IndexSet, Swift.Int) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_list.ContentView.body.getter : some"
+                  moduleName = "Todo list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zudoturiku/Documents/Coding%20projects/Todo%20list/Todo%20list/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2159">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -82,6 +114,38 @@
             endingLineNumber = "30"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "0E230502-EADE-4B92-A851-BB372CA65D0E - 49b18250221b7a2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt; in closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in implicit closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onMove(perform: Swift.Optional&lt;(Foundation.IndexSet, Swift.Int) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_list.ContentView.body.getter : some"
+                  moduleName = "Todo list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zudoturiku/Documents/Coding%20projects/Todo%20list/Todo%20list/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "0E230502-EADE-4B92-A851-BB372CA65D0E - 78181d724bebd500"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt; in closure #2 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt; in closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in implicit closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onMove(perform: Swift.Optional&lt;(Foundation.IndexSet, Swift.Int) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_list.ContentView.body.getter : some"
+                  moduleName = "Todo list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zudoturiku/Documents/Coding%20projects/Todo%20list/Todo%20list/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2159">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -146,6 +210,38 @@
             endingLineNumber = "30"
             landmarkName = "body"
             landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F38C7741-7908-46AD-B24F-29A58E409BB0 - 49b18250221b7a2b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt; in closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in implicit closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onMove(perform: Swift.Optional&lt;(Foundation.IndexSet, Swift.Int) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_list.ContentView.body.getter : some"
+                  moduleName = "Todo list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zudoturiku/Documents/Coding%20projects/Todo%20list/Todo%20list/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "169">
+               </Location>
+               <Location
+                  uuid = "F38C7741-7908-46AD-B24F-29A58E409BB0 - 78181d724bebd500"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt; in closure #2 () -&gt; SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt; in closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in implicit closure #1 (SwiftUI.Binding&lt;Todo_list.Todo&gt;) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI.Image, SwiftUI.Text, SwiftUI.Text)&gt;&gt;, Todo_list.ToDoDetailView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onMove(perform: Swift.Optional&lt;(Foundation.IndexSet, Swift.Int) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.toolbar&lt;&#x3c4;_0_0 where &#x3c4;_1_0: SwiftUI.ToolbarContent&gt;(content: () -&gt; &#x3c4;_1_0) -&gt; some&gt;&gt;.0 in Todo_list.ContentView.body.getter : some"
+                  moduleName = "Todo list"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zudoturiku/Documents/Coding%20projects/Todo%20list/Todo%20list/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2159">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

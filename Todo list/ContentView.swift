@@ -15,8 +15,8 @@ struct ContentView: View {
         Todo(title: "Become a vampire"),
         Todo(title: "Get Reborn"),
         Todo(title: "Exact revenge on all who wronged you"),
-        Todo(title: "Pet puppy")
-
+        Todo(title: "Pet puppy"),
+        Todo(title: "Hit toodlers")
     ]
     
     @State var isSheetPresented = false
