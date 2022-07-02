@@ -9,22 +9,24 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var todos = [
-        Todo(title: "Watch Paw Patrol and fanboy over chase", isCompleted: true, details: "Episodes 69 and 420"),
-        Todo(title: "Die"),
-        Todo(title: "Become a vampire"),
-        Todo(title: "Get Reborn"),
-        Todo(title: "Exact revenge on all who wronged you"),
-        Todo(title: "Pet puppy"),
-        Todo(title: "Hit toodlers")
-    ]
+    //@State var todos = [
+        //Todo(title: "Watch Paw Patrol and fanboy over chase", isCompleted: true, details: "Episodes 69 and 420"),
+        //Todo(title: "Die"),
+        //Todo(title: "Become a vampire"),
+        //Todo(title: "Get Reborn"),
+        //Todo(title: "Exact revenge on all who wronged you"),
+        //Todo(title: "Pet puppy"),
+        //Todo(title: "Hit toodlers")
+    //]
     
     @State var isSheetPresented = false
+    
+    @StateObject var todoManager = TodoManager()
     
     var body: some View {
         NavigationView {
             List {
-                ForEach($todos) { $todo in
+                ForEach($todoManager.todos) { $todo in
                     NavigationLink {
                         ToDoDetailView(todo: $todo)
                      } label: {
@@ -42,11 +44,11 @@ struct ContentView: View {
                     }
                 }
             }
-                .onDelete { indexSet in todos.remove(atOffsets: indexSet)
+                .onDelete { indexSet in todoManager.todos.remove(atOffsets: indexSet)
                     
                 }
                 .onMove {
-                    indices, newOffset in todos.move(fromOffsets: indices, toOffset: newOffset)
+                    indices, newOffset in todoManager.todos.move(fromOffsets: indices, toOffset: newOffset)
                 }
                 
         }
@@ -65,7 +67,7 @@ struct ContentView: View {
             }
     }
         .sheet(isPresented: $isSheetPresented) {
-            NewToDoView(todos: $todos)
+            NewToDoView(todos: $todoManager.todos)
         }
 }
 
