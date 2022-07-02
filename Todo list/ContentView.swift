@@ -17,7 +17,6 @@ struct ContentView: View {
         Todo(title: "Exact revenge on all who wronged you"),
         Todo(title: "Pet puppy")
 
-
     ]
     var body: some View {
         NavigationView {
@@ -27,8 +26,8 @@ struct ContentView: View {
                         ToDoDetailView(todo: $todo)
                      } label: {
                         HStack {
-                            Image(systemName: todo.isCompleted ? "checkmark.circle.fill"
-                                  :"circle")
+                            Image(systemName: todo.isCompleted ? "checkmark.seal.fill"
+                                  :"seal")
                         Text(todo.title)
                                 .strikethrough(todo.isCompleted)
                             Text(todo.details)
