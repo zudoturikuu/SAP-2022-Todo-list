@@ -10,12 +10,26 @@ import SwiftUI
 struct ToDoDetailView: View {
     
     @Binding var todo: Todo
+    @State var date = Date()
     var body: some View {
         VStack{
             TextField("Please enter a title", text: $todo.title)
                 .textFieldStyle(.roundedBorder)
                 .multilineTextAlignment(.center)
                 .padding()
+            
+            DatePicker(
+                    "Start Date",
+                    selection: $date,
+                    displayedComponents: [.date]
+                )
+            
+            DatePicker(
+                    "End Date",
+                    selection: $date,
+                    displayedComponents: [.date]
+                )
+            
             
             Button {
                 withAnimation{
@@ -27,8 +41,8 @@ struct ToDoDetailView: View {
                     .background(Color.blue)
                      .foregroundColor(.white)
                      .cornerRadius(10)
-                     
             }
+            
         }
         .navigationTitle(todo.title)
     }
