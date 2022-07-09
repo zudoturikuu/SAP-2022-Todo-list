@@ -21,7 +21,6 @@ struct ContentView: View {
     //]
     
     @State var isSheetPresented = false
-    
     @StateObject var todoManager = TodoManager()
     @AppStorage("username") var username: String = ""
     
