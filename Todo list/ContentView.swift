@@ -5,6 +5,7 @@
 //  Created by Wong Jun heng on 25/6/22.
 //
 
+//Purpose: Content view to show things on screen only
 import SwiftUI
 
 struct ContentView: View {
