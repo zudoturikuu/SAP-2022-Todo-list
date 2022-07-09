@@ -23,10 +23,13 @@ struct ContentView: View {
     @State var isSheetPresented = false
     
     @StateObject var todoManager = TodoManager()
+    @AppStorage("username") var name = ""
     
     var body: some View {
         NavigationView {
             List {
+                TextField("Enter your name", text: $name)
+                
                 ForEach($todoManager.todos) { $todo in
                     NavigationLink {
                         ToDoDetailView(todo: $todo)
