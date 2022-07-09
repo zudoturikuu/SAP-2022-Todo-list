@@ -37,7 +37,7 @@ struct ContentView: View {
                         Text(todo.title)
                                 .strikethrough(todo.isCompleted)
                                 .foregroundColor(todo.isCompleted ?  .blue : .red)
-                        Text(todo.isCompleted ? "✔️" : "☢️")
+                        Text(todo.isCompleted ? "✔️" : "⚠️")
                             Text(todo.details)
                                 .font(.caption)
                                 .foregroundColor(.gray)

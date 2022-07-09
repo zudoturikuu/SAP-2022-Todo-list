@@ -36,6 +36,6 @@ struct ToDoDetailView: View {
 
 struct ToDoDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ToDoDetailView(todo: .constant(Todo(title: "Watch Paw Patrol")))
     }
 }
