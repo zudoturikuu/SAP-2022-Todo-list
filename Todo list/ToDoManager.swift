@@ -51,3 +51,4 @@ class TodoManager: ObservableObject {
         todos = finalTodos
     }
 }
+//Put this in a code snippet so that you can use this whenever
