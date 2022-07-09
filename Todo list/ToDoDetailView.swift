@@ -10,7 +10,8 @@ import SwiftUI
 struct ToDoDetailView: View {
     
     @Binding var todo: Todo
-    @State var date = Date()
+    @State var startDate = Date()
+    @State var endDate = Date()
     var body: some View {
         VStack{
             TextField("Please enter a title", text: $todo.title)
@@ -20,13 +21,13 @@ struct ToDoDetailView: View {
             
             DatePicker(
                     "Start Date",
-                    selection: $date,
+                    selection: $startDate,
                     displayedComponents: [.date]
                 )
             
             DatePicker(
                     "End Date",
-                    selection: $date,
+                    selection: $endDate,
                     displayedComponents: [.date]
                 )
             
