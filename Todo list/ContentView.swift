@@ -10,68 +10,24 @@ import SwiftUI
 
 struct ContentView: View {
     
-    //@State var todos = [
-        //Todo(title: "Watch Paw Patrol and fanboy over chase", isCompleted: true, details: "Episodes 69 and 420"),
-        //Todo(title: "Die"),
-        //Todo(title: "Become a vampire"),
-        //Todo(title: "Get Reborn"),
-        //Todo(title: "Exact revenge on all who wronged you"),
-        //Todo(title: "Pet puppy"),
-        //Todo(title: "Hit toodlers")
-    //]
-    
-    @State var isSheetPresented = false
     @StateObject var todoManager = TodoManager()
-    @AppStorage("username") var username: String = ""
     
     var body: some View {
-        NavigationView {
-            List {
-                TextField("Enter Username", text: $username)
-                ForEach($todoManager.todos) { $todo in
-                    NavigationLink {
-                        ToDoDetailView(todo: $todo)
-                     } label: {
-                        HStack {
-                            Image(systemName: todo.isCompleted ? "checkmark.seal.fill"
-                                  :"seal")
-                        Text(todo.title)
-                                .strikethrough(todo.isCompleted)
-                                .foregroundColor(todo.isCompleted ?  .blue : .red)
-                        Text(todo.isCompleted ? "✔️" : "⚠️")
-                            Text(todo.details)
-                                .font(.caption)
-                                .foregroundColor(.gray)
-                            
-                    }
+        TabView{
+            MainTodoListView(todoManager: todoManager)
+                .tabItem {
+                    Label("Todos", systemImage: "checkmark.circle.fill")
                 }
-            }
-                .onDelete { indexSet in todoManager.todos.remove(atOffsets: indexSet)
-                    
+        
+            
+            Text("\(todoManager.todos.count) undone todos")
+                .tabItem {
+                    Label("Number of undone Todos", systemImage: "person")
                 }
-                .onMove {
-                    indices, newOffset in todoManager.todos.move(fromOffsets: indices, toOffset: newOffset)
-                }
-                
         }
-            .navigationTitle("PAW PATROL TODO LIST")
-            .toolbar{
-                ToolbarItem(placement: .navigationBarLeading) {
-                    EditButton()
-                }
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        isSheetPresented = true
-                    } label: {
-                        Image(systemName: "plus")
-                    }
-                }
-            }
+        }
     }
-        .sheet(isPresented: $isSheetPresented) {
-            NewToDoView(todos: $todoManager.todos)
-        }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -80,5 +36,18 @@ struct ContentView_Previews: PreviewProvider {
              }
           }
     
-    }
+    
 
+
+
+
+
+//@State var todos = [
+    //Todo(title: "Watch Paw Patrol and fanboy over chase", isCompleted: true, details: "Episodes 69 and 420"),
+    //Todo(title: "Die"),
+    //Todo(title: "Become a vampire"),
+    //Todo(title: "Get Reborn"),
+    //Todo(title: "Exact revenge on all who wronged you"),
+    //Todo(title: "Pet puppy"),
+    //Todo(title: "Hit toodlers")
+//]
