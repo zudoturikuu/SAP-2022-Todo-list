@@ -46,7 +46,7 @@ struct MainTodoListView: View {
             }
             
     }
-        .navigationTitle("PAW PATROL TODO LIST")
+        .navigationTitle("Todo List")
         .toolbar{
             ToolbarItem(placement: .navigationBarLeading) {
                 EditButton()
