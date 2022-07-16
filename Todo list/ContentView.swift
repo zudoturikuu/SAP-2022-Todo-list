@@ -20,7 +20,7 @@ struct ContentView: View {
                 }
         
             
-            Text("\(todoManager.todos.count) todos")
+            Text("\(todoManager.todos.filter { !$0.isCompleted }.count) undone todos")
                 .tabItem {
                     Label("Number of undone Todos", systemImage: "person")
                 }
