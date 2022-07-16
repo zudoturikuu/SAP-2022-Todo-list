@@ -24,6 +24,9 @@ struct MainTodoListView: View {
                     HStack {
                         Image(systemName: todo.isCompleted ? "checkmark.seal.fill"
                               :"seal")
+                        .onTapGesture {
+                            todo.isCompleted.toggle()
+                        }
                     Text(todo.title)
                             .strikethrough(todo.isCompleted)
                             .foregroundColor(todo.isCompleted ?  .blue : .red)
